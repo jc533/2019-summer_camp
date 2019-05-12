@@ -11,11 +11,11 @@ body {
 }
 .banner {
     min-height: 70vh;
-    background: url('/images/banner.png');
+    background: url('/images/banner.bmp');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #3DBCA5;
+    background-color: #FFFFFF;
     position: relative;
 }
 .banner > .inner {
