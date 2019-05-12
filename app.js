@@ -41,12 +41,12 @@ app.use(morgan('cscamp'));
 app.use(bodyParser.json({limit: '10mb'}));
 app.use(bodyParser.urlencoded({ extended: false, limit:'10mb' }));
 app.use(cookieParser());
-app.use('/2018/assets', express.static(path.join(__dirname, 'assets')));
-app.use('/2018/images', express.static(path.join(__dirname, 'images')));
-app.use('/2018/upload', express.static(path.join(__dirname, 'upload')));
-app.use('/2018/file', express.static(path.join(__dirname, 'file')));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/upload', express.static(path.join(__dirname, 'upload')));
+app.use('/file', express.static(path.join(__dirname, 'file')));
 
-app.use('/2018', index);
+app.use('/', index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -8,7 +8,7 @@ var basicAuth = require('basic-auth');
 var sha256 = require('sha256');
 var config = require('../config');
 var fs = require('fs');
-var fcm = require('../fcm');
+// var fcm = require('../fcm');
 
 var storage = multer.diskStorage({
     destination: function(req, file, callback) {
@@ -86,9 +86,10 @@ router.put('/register', upload.single('parentalConsent'), function(req, res, nex
                     db.collection('register').find().toArray(function(err,result){
                         if(err) {
                             throw err;
-                        } else {
-                            fcm.send(result.length);
-                        }
+                        } 
+                        // else {
+                            // fcm.send(result.length);
+                        // }
                     });
                 }
             });
