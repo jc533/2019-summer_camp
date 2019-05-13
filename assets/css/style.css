@@ -10,7 +10,8 @@ body {
     font-weight: 600;
 }
 .banner {
-    min-height: 70vh;
+    border-radius: 10%;
+    min-height: 90vh;
     background: url('/images/banner.bmp');
     background-position: center center;
     background-size: contain;
@@ -78,6 +79,7 @@ body {
 }
 .image.right img, .image.left img {
     max-height: 240px;
+    width: auto;
 }
 #crew ~ section {
     padding: 1em 0;
@@ -183,12 +185,13 @@ input[type="checkbox"] + label::before {
         padding-left: 0;
     }
     .banner {
+        min-height: 60vh;
         margin-bottom: 0;
-        background: url('/images/banner_m.png');
+        background: url('/images/banner_m.jpg');
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #3DBCA5;
+        background-color: #FFFFFF;
     }
     .image.right, .image.left {
         float: none;
