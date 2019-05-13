@@ -1,32 +1,32 @@
 [{
-  "id": "web",
-  "title": "Web Development",
-  "text": "日常生活中，網頁隨處可見，在這次的課程，將探討網頁中常見到的技術: 透過 HTML 撰寫內容、CSS 美化介面並以 Javascript 擴充其功能。",
-  "img": "wd.jpg"
+  "id": "",
+  "title": "",
+  "text": "",
+  "img": ""
 },
 {
-  "id": "processing",
-  "title": "Processing",
-  "text": "使用 Processing 寫程式就是比其他語言更有趣，因為它著重在「繪圖」，讓你天馬行空的創意能夠藉由撰寫程式發揮出來，讓每個人都能發揮與生俱來的創造藝術能力。",
-  "img": "processing.png"
+  "id": "",
+  "title": "",
+  "text": "",
+  "img": ""
 },
 {
-  "id": "java",
-  "title": "Java",
-  "text": "Java係由C語言改寫而來，具有一段戲劇性的歷史，Java語言具有跨平台及注重物件導向的特性。在課程中我們會講述Java語言的歷史、介紹Java的基本語法和運算子，並帶大家一窺物件導向的樂趣。",
-  "img": "java.png"
+  "id": "",
+  "title": "",
+  "text": "",
+  "img": ""
 },
 {
-  "id":"Ai",
-  "title": "Adobe Illustrator",
-  "text": "Illustrator 是Adobe System 開發的強大軟體,主要功能是製作向量圖檔,也可以用來文書處理、上色等。本課程將會介紹AI的基礎功能，並使學員能製作出作品。",
-  "img": "Ai.jpg"
+  "id":"",
+  "title": "",
+  "text": "",
+  "img": ""
 },
 {
-  "id": "mc",
-  "title": "Minecraft 腳本設計",
-  "text": "Minecraft是一款由淺入深的高自由度遊戲，本課程將使用此遊戲來＜寫程式＞，語法簡單，成就感高且容易學習的腳本語法，讓您在Minecraft寫出屬於自己的專屬遊戲！其中更包含yaml簡易資料庫和許多數學方程式的應用！",
-  "img": "mc.jpg"
+  "id": "",
+  "title": "",
+  "text": "",
+  "img": ""
 },
 {
   "id": "cpp",
