@@ -107,7 +107,7 @@ var authorize = function(req, res, next){
     if(!user || !user.name || !user.pass){
         return unauth(res);
     }
-    if(sha256(sha256(user.name)) === '8da02532d45e8453c2af4f6f358d6a2efcfd583db0c388e9464e61903c9572db' && sha256(sha256(user.pass)) === '66d44b8d09f8dc5cbfe76b77caa96f72c00509d07850f3cc0316667c9d84f3d3'){
+    if(sha256(sha256(user.name)) === '998ed4d621742d0c2d85ed84173db569afa194d4597686cae947324aa58ab4bb' && sha256(sha256(user.pass)) === 'b194f2cd3d7c35e8c1af1879d77e770a4ab60ff4d418f60d43d25b221cc0ac72'){
         return next();
     } else {
         return unauth(res);
