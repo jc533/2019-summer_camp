@@ -31,7 +31,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Insert your Google Analytics Id, Shoule be something like 'UA-12345678-9'
-var analytics = expressGoogleAnalytics('UA-119048531-1');
+var analytics = expressGoogleAnalytics('UA-140145916-1');
 //Add to express before your routes
 app.use(analytics);
 app.use(helmet());
