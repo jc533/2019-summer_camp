@@ -73,13 +73,15 @@ router.put('/register', upload.single('parentalConsent'), function(req, res, nex
         !param1.transport        ||
         !param1.emergencyContact ||
         !param1.parentalConsent  ){
+        // console.log("\n\n\n50000000000\n\n");
         console.log(param1);
         res.status(400).send('Error');
     } else {
         MongoClient.connect(url, function(err, client) {
-            var db = client.db('2018-cscamp');
+            var db = client.db('2019-cscamp');
             db.collection('register').insert(param1, function(err, doc) {
                 if (err) {
+                    // console.log("\n\n\n50000000000\n\n");
                     res.status(500).send('Error');
                 } else {
                     res.send('Success');
@@ -115,7 +117,7 @@ router.get('/security', authorize , function(req, res, next){
     var MongoClient = require('mongodb').MongoClient;
     var mongoLink = "mongodb://localhost:27017";
     MongoClient.connect(mongoLink, function(err, client) {
-        var db = client.db('2018-cscamp');
+        var db = client.db('2019-cscamp');
         db.collection('register').find().toArray(function(err , results){
             if(err){
                 throw err;
@@ -128,7 +130,7 @@ router.get('/security', authorize , function(req, res, next){
 });
 router.get('/api/getRegisterData', authorize , function(req, res, next) {
     console.log('Download Requestsed');
-    res.download(path.resolve(__dirname,'../2018_cscamp_registration.zip'),'2018_cscamp_registration.zip');
+    res.download(path.resolve(__dirname,'../2019_cscamp_registration.zip'),'2019_cscamp_registration.zip');
 })
 function shuffle(arr) {
     var i,j,temp;
