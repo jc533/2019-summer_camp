@@ -41,7 +41,7 @@ router.get('/schedule', function(req, res, next) {
 });
 router.get('/history', function(req, res, next) {
     var files = [];
-    var walker = walk.walk('images/2017', {followLinks: false});
+    var walker = walk.walk('images/2018', {followLinks: false});
     walker.on('file', function(root, start, next) {
         files.push(root + '/' + start.name);
         next();
