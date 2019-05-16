@@ -10,8 +10,7 @@ body {
     font-weight: 600;
 }
 .banner {
-    border-radius: 10%;
-    min-height: 90vh;
+    min-height: 85vh;
     background: url('/images/banner.bmp');
     background-position: center center;
     background-size: contain;
@@ -185,7 +184,7 @@ input[type="checkbox"] + label::before {
         padding-left: 0;
     }
     .banner {
-        min-height: 60vh;
+        /* min-height: 60vh; */
         margin-bottom: 0;
         background: url('/images/banner_m.jpg');
         background-position: center center;
