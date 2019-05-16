@@ -1,7 +1,7 @@
-# 良成楓景遇見你 - 2019 建成楓景聯合電資暑訓 網站
+# 良成楓景遇建你 - 2019 建成楓景聯合電資暑訓 網站
 *以 [t510599/2018-cscamp](https://github.com/t510599/2018-cscamp.git) 為基礎進行修改。*
 
-《資意成楓建美景》--- 由 建中資訊 INFOR 32nd、成功電研 CKCSC 32nd、中山資研 ZSISC 26th、景美電資 CMIOC 26th 於 2019 年暑假所舉辦的暑期電資營隊。  
+《良成楓景遇建你》--- 由 建中資訊 INFOR 32nd、成功電研 CKCSC 32nd、中山資研 ZSISC 26th、景美電資 CMIOC 26th 於 2019 年暑假所舉辦的暑期電資營隊。  
 
 <!-- [Official Site](https://cscamp.codes/2018) -->
 
