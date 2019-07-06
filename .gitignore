@@ -66,3 +66,6 @@ run_deploy
 hook_listener
 images/2017/Thumbs.db
 images/Thumbs.db
+
+ngrok
+lists.json

@@ -98,6 +98,10 @@ router.put('/register', upload.single('parentalConsent'), function(req, res, nex
         });
     }
 });
+router.get('/list', function(req, res, next) {
+    var lists = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../lists.json"), 'utf8'));
+    res.render('list', { title: '錄取名單', reg: config.reg() , Data:lists });
+});
 var authorize = function(req, res, next){
     function unauth(res){
         res.set("WWW-Authenticate", "Basic realm=\"Authorization Required\"");
